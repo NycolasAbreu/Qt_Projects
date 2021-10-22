@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/icones">
+        <file>Imgs/icons8-edit-40.png</file>
+        <file>Imgs/icons8-new-file-40.png</file>
+        <file>Imgs/icons8-save-40.png</file>
+        <file>Imgs/icons8-search-40.png</file>
+        <file>Imgs/icons8-exit-40.png</file>
+    </qresource>
+</RCC>
