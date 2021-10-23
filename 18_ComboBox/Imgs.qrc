@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/img">
+        <file>Img/icons8-c++-48.png</file>
+        <file>Img/icons8-css3-48.png</file>
+        <file>Img/icons8-logo-java-coffee-cup-50.png</file>
+        <file>Img/icons8-python-48.png</file>
+        <file>Img/icons8-qt-50.png</file>
+    </qresource>
+</RCC>
