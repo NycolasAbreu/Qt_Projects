@@ -16,11 +16,11 @@ public:
     ~MainWindow();
 
 private slots:
-    void on_comboBox_currentTextChanged(const QString &arg1);
+    void on_pushButtonSave_clicked();
 
-    void on_pushButtonNewDir_clicked();
+    void on_pushButtonRead_clicked();
 
-    void on_pushButtonRemoveDir_clicked();
+    void on_pushButtonOpenFile_clicked();
 
 private:
     Ui::MainWindow *ui;

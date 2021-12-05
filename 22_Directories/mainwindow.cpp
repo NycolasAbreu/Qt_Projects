@@ -58,13 +58,43 @@ void MainWindow::on_pushButtonNewDir_clicked()
         ui->listWidget->clear();
         ui->listWidget->addItem(ui->comboBox->currentText());
         QDir content(ui->comboBox->currentText());
+
         foreach(QFileInfo fileInfo, content.entryInfoList())         // Adiciona as unidades do computador no combobox
         {
             if(fileInfo.isDir())
             {
-                ui->listWidget->addItem("Dir : " + fileInfo.absoluteFilePath());        // Mostra o diretório na lista
+                ui->listWidget->addItem(fileInfo.absoluteFilePath());        // Mostra o diretório na lista
             }
         }
     }
+    ui->lineEditNameDir->clear();
+}
+
+
+void MainWindow::on_pushButtonRemoveDir_clicked()
+{
+    QString local = ui->listWidget->currentItem()->text();              // Recebe o diretorio selecionado na lista
+    QDir newDir(local);
+
+    if(!newDir.exists())
+    {
+        QMessageBox::about(this,"pasta","Diretório não existe");
+    }
+    else
+    {
+        newDir.rmdir(local);
+        ui->listWidget->clear();
+        ui->listWidget->addItem(ui->comboBox->currentText());
+        QDir content(ui->comboBox->currentText());
+
+        foreach(QFileInfo fileInfo, content.entryInfoList())         // Adiciona as unidades do computador no combobox
+        {
+            if(fileInfo.isDir())
+            {
+                ui->listWidget->addItem(fileInfo.absoluteFilePath());        // Mostra o diretório na lista
+            }
+        }
+    }
+    ui->lineEditNameDir->clear();
 }
 
