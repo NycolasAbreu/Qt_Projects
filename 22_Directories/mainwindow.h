@@ -15,6 +15,11 @@ public:
     MainWindow(QWidget *parent = nullptr);
     ~MainWindow();
 
+private slots:
+    void on_comboBox_currentTextChanged(const QString &arg1);
+
+    void on_pushButtonNewDir_clicked();
+
 private:
     Ui::MainWindow *ui;
 };
