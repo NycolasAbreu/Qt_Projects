@@ -1,0 +1,17 @@
+<RCC>
+    <qresource prefix="/Icons">
+        <file>Icons/icons8-abrir-pasta-48.png</file>
+        <file>Icons/icons8-adicionar-arquivo-48.png</file>
+        <file>Icons/icons8-cancelar-48.png</file>
+        <file>Icons/icons8-colar-48.png</file>
+        <file>Icons/icons8-copiar-48.png</file>
+        <file>Icons/icons8-desfazer-48.png</file>
+        <file>Icons/icons8-recortar-48.png</file>
+        <file>Icons/icons8-refazer-48.png</file>
+        <file>Icons/icons8-salvar-48.png</file>
+        <file>Icons/icons8-sobre-48.png</file>
+        <file>Icons/icons8-salvar-como-48.png</file>
+        <file>Icons/icons8-escolha-a-fonte-48.png</file>
+        <file>Icons/icons8-paleta-de-pintura-48.png</file>
+    </qresource>
+</RCC>
