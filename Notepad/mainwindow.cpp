@@ -22,14 +22,12 @@ MainWindow::~MainWindow()
     delete ui;
 }
 
-
 void MainWindow::on_actionNovo_triggered()      // Inicia um novo documento
 {
     fileDir = "";
     ui->textEdit->clear();
     ui->textEdit->setFocus();
 }
-
 
 void MainWindow::on_actionAbrir_triggered()
 {
@@ -52,7 +50,6 @@ void MainWindow::on_actionAbrir_triggered()
         file.close();
     }
 }
-
 
 void MainWindow::on_actionSalvar_como_triggered()
 {
@@ -77,7 +74,6 @@ void MainWindow::on_actionSalvar_como_triggered()
     }
 }
 
-
 void MainWindow::on_actionSalvar_triggered()
 {
     QFile file(fileDir);
@@ -97,42 +93,35 @@ void MainWindow::on_actionSalvar_triggered()
     }
 }
 
-
 void MainWindow::on_actionFechar_triggered()
 {
     close();
 }
-
 
 void MainWindow::on_actionCopiar_triggered()
 {
     ui->textEdit->copy();
 }
 
-
 void MainWindow::on_actionRecortar_triggered()
 {
     ui->textEdit->cut();
 }
-
 
 void MainWindow::on_actionColar_triggered()
 {
     ui->textEdit->paste();
 }
 
-
 void MainWindow::on_actionDesfazer_triggered()
 {
     ui->textEdit->undo();
 }
 
-
 void MainWindow::on_actionRefazer_triggered()
 {
     ui->textEdit->redo();
 }
-
 
 void MainWindow::on_actionFonte_triggered()
 {
@@ -145,7 +134,6 @@ void MainWindow::on_actionFonte_triggered()
     else
         return;
 }
-
 
 void MainWindow::on_actionCor_triggered()
 {
