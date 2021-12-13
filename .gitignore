@@ -66,3 +66,15 @@ build-32_SQLite-Desktop_Qt_6_2_0_MinGW_64_bit-Debug/ui_fm_principal.h
 build-32_SQLite-Desktop_Qt_6_2_0_MinGW_64_bit-Debug/ui_log.h
 build-32_SQLite-Desktop_Qt_6_2_0_MinGW_64_bit-Debug/ui_mainwindow.h
 build-32_SQLite-Desktop_Qt_6_2_0_MinGW_64_bit-Debug/debug/moc_log.cpp
+build-32_SQLite-Desktop_Qt_6_2_0_MinGW_64_bit-Debug/debug/fm_contatos.o
+build-32_SQLite-Desktop_Qt_6_2_0_MinGW_64_bit-Debug/debug/fm_pesquisa.o
+build-32_SQLite-Desktop_Qt_6_2_0_MinGW_64_bit-Debug/debug/moc_fm_contatos.cpp
+build-32_SQLite-Desktop_Qt_6_2_0_MinGW_64_bit-Debug/debug/moc_fm_pesquisa.cpp
+build-32_SQLite-Desktop_Qt_6_2_0_MinGW_64_bit-Debug/debug/moc_fm_contatos.o
+build-32_SQLite-Desktop_Qt_6_2_0_MinGW_64_bit-Debug/debug/moc_login.cpp
+build-32_SQLite-Desktop_Qt_6_2_0_MinGW_64_bit-Debug/debug/moc_fm_pesquisa.o
+build-32_SQLite-Desktop_Qt_6_2_0_MinGW_64_bit-Debug/ui_fm_contatos.h
+build-32_SQLite-Desktop_Qt_6_2_0_MinGW_64_bit-Debug/ui_fm_pesquisa.h
+build-32_SQLite-Desktop_Qt_6_2_0_MinGW_64_bit-Debug/debug/moc_login.o
+build-32_SQLite-Desktop_Qt_6_2_0_MinGW_64_bit-Debug/debug/login.o
+build-32_SQLite-Desktop_Qt_6_2_0_MinGW_64_bit-Debug/ui_login.h
