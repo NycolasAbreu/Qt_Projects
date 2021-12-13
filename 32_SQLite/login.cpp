@@ -1,5 +1,5 @@
-#include "mainwindow.h"
-#include "ui_mainwindow.h"
+#include "login.h"
+#include "ui_login.h"
 #include "fm_principal.h"
 #include "ui_fm_principal.h"
 
@@ -32,7 +32,7 @@ void MainWindow::on_pushButton_clicked()
 
     QSqlQuery query;
 
-    query.exec("select * from tb_teste where username = '"+username+"' and senha = '"+password+"'");
+    query.exec("select * from tb_login where username = '"+username+"' and senha = '"+password+"'");
 
     int cont = 0;
 

@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>695</width>
-    <height>541</height>
+    <width>310</width>
+    <height>192</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -27,7 +27,7 @@
      <string>TextLabel</string>
     </property>
    </widget>
-   <widget class="QWidget" name="">
+   <widget class="QWidget" name="layoutWidget">
     <property name="geometry">
      <rect>
       <x>10</x>
@@ -73,7 +73,11 @@
           <widget class="QLineEdit" name="lineEdit_Username"/>
          </item>
          <item>
-          <widget class="QLineEdit" name="lineEdit_Password"/>
+          <widget class="QLineEdit" name="lineEdit_Password">
+           <property name="echoMode">
+            <enum>QLineEdit::Password</enum>
+           </property>
+          </widget>
          </item>
         </layout>
        </item>
@@ -94,7 +98,7 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>695</width>
+     <width>310</width>
      <height>20</height>
     </rect>
    </property>

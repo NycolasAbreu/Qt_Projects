@@ -9,17 +9,23 @@ CONFIG += c++11
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
 SOURCES += \
+    fm_contatos.cpp \
+    fm_pesquisa.cpp \
     fm_principal.cpp \
-    main.cpp \
-    mainwindow.cpp
+    login.cpp \
+    main.cpp
 
 HEADERS += \
+    fm_contatos.h \
+    fm_pesquisa.h \
     fm_principal.h \
-    mainwindow.h
+    login.h
 
 FORMS += \
+    fm_contatos.ui \
+    fm_pesquisa.ui \
     fm_principal.ui \
-    mainwindow.ui
+    login.ui
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin

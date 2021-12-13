@@ -1,5 +1,5 @@
-#ifndef MAINWINDOW_H
-#define MAINWINDOW_H
+#ifndef LOGIN_H
+#define LOGIN_H
 
 #include <QMainWindow>
 #include <QtSql>
@@ -25,4 +25,4 @@ private slots:
 private:
     Ui::MainWindow *ui;
 };
-#endif // MAINWINDOW_H
+#endif // LOGIN_H

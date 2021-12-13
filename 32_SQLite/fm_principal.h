@@ -2,6 +2,7 @@
 #define FM_PRINCIPAL_H
 
 #include <QDialog>
+#include "fm_contatos.h"
 
 namespace Ui {
 class Fm_principal;
@@ -16,6 +17,10 @@ public:
     ~Fm_principal();
 
 private slots:
+
+    void on_pushButtonAdd_clicked();
+
+    void on_pushButtonPesquisar_clicked();
 
 private:
     Ui::Fm_principal *ui;
